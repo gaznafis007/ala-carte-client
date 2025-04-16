@@ -1,14 +1,13 @@
-import { Footer } from "@/components/footer";
+// import { Footer } from "@/components/footer";
 import Hero from "@/components/hero";
-import { Navbar } from "@/components/navbar";
+// import { Navbar } from "@/components/navbar";
 import { HowItWorks } from "@/components/sections/how-it-works";
 import { OurCustomers } from "@/components/sections/our-customers";
 import { OurResults } from "@/components/sections/our-results";
 
 export default function Home() {
   return (
-    <main className="min-h-screen flex flex-col">
-      <Navbar />
+    <>
 
       {/* Hero Section */}
       <Hero/>
@@ -22,7 +21,7 @@ export default function Home() {
       {/* Our Customers Section */}
       <OurCustomers />
 
-      <Footer />
-    </main>
+      
+    </>
   );
 }

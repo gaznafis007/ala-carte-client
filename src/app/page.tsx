@@ -2,6 +2,7 @@ import { Footer } from "@/components/footer";
 import Hero from "@/components/hero";
 import { Navbar } from "@/components/navbar";
 import { HowItWorks } from "@/components/sections/how-it-works";
+import { OurResults } from "@/components/sections/our-results";
 
 export default function Home() {
   return (
@@ -15,7 +16,7 @@ export default function Home() {
        <HowItWorks />
 
       {/* Our Results Section */}
-      {/* // <OurResults /> */}
+      <OurResults />
 
       {/* Our Customers Section */}
       {/* // <OurCustomers /> */}
